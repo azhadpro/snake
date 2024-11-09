@@ -1,6 +1,6 @@
 // declare
 
-const gameBoard = document.getElementByid('game-board');
+const gameBoard = document.getElementById('game-board');
 const boardSize = 20;
 const rows = gameBoard.clientHeight * boardSize;
 const cols = gameBoard.clientWidth * boardSize;
