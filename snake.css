@@ -1,0 +1,36 @@
+/* snake.css */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+}
+
+#game-board {
+    width: 400px;
+    height: 400px;
+    background-color: #000;
+    position: relative; /* The game board stays in place */
+    overflow: hidden;   /* Prevents any movement outside the board */
+}
+
+.snake {
+    width: 20px;
+    height: 20px;
+    background-color: #0f0;
+    position: absolute; /* Each snake segment moves independently */
+}
+
+.food {
+    width: 20px;
+    height: 20px;
+    background-color: #f00;
+    position: absolute; /* Food also moves independently */
+}
